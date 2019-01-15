@@ -21,6 +21,7 @@ or if you are using mac: https://docs.docker.com/docker-for-mac/install/
 
 ### Setup
 
+(Note: if you using Mac, sudo is unnecessary)
 1. clone this repository & copy .env.example to .env
 2. in terminal run `sudo docker-compose build` to build docker images, Then run `sudo docker-compose up -d` to bring up containers.
  - Note it will take a couple of minutes on the first run for containers to be ready while composer dependencies get installed, check `sudo docker-compose logs -f` to see the progress.
