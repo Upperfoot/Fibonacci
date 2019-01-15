@@ -9,6 +9,8 @@ Fibonacci numbers are persisted in a Redis list, Redis list are fast and provide
 
 Redis data is being persisted on the disk within `data/` directory, So the process can be resumed in case of a sudden of failure or restart.
 
+To keep it simple and easy to set-up, high availibity and master-slave setup has been skiped, in a real scenario, worker will write to master and the application will only access read slaves.
+
 
 
 ### Requirements
