@@ -25,6 +25,13 @@ or if you are using mac: https://docs.docker.com/docker-for-mac/install/
 fibonacci generator worker `artisan fibonacci:generate` will start running in background.
 4. run `sudo docker-compose exec app php artisan fibonacci:tail` to tail the fibonacci sequence as it is being generated.
 5. run `sudo docker-compose exec app php artisan fibonacci:query` to look up and filter the numbers.
+    - It acceps following optional parameters:
+```
+      --from[=FROM]     Starting index [default: "0"]
+      --to[=TO]         Ending index [default: "20"]
+      --sort[=SORT]     Order the output [asc/desc] [default: "asc"]
+```
+        
 6. run the tests `sudo docker-compose app exec composer test` 
 7. check the code coverage by running `sudo docker-compose app exec composer coverage` in `coverage\` directory.
 
