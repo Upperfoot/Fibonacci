@@ -8,6 +8,10 @@ use Illuminate\Config\Repository;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Class WriterServiceTest
+ * @author PB
+ */
 class WriterServiceTest extends TestCase
 {
     /**

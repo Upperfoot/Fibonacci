@@ -54,7 +54,8 @@ class FibonacciCalculatorWorkerCommand extends Command
     /**
      * Calculate fibonacci numbers using iteration
      * Number addition and comparision is done using BCMath in order to avoid integer overflow
-     * F(92) is the maximum to calculate before hitting PHP_INT_MAX 64bit
+     * F(92) is the maximum to calculate before hitting PHP_INT_MAX 64bit limit
+     * Which results in integer overflow
      *
      * @throws InvalidStateException
      * @author PB

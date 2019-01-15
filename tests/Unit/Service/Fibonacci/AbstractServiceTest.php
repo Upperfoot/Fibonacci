@@ -11,6 +11,10 @@ use Illuminate\Redis\RedisManager;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Class AbstractServiceTest
+ * @author PB
+ */
 class AbstractServiceTest extends TestCase
 {
     /**
